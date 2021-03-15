@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscription</title>
+	<style>
+		table {
+			width: 30%; 
+			margin-right: 35%;
+			margin-left: 35%;}
+		td{
+			text-align: center;
+			font-weight: bold;
+		}
+		h1{
+			color:violet ;
+		}
+		.inpt{
+			width: 100%; 
+			height: 30px;
+			border-radius: 50px;
+		}
+		textarea {
+			width: 50%50
+			border-radius: 5px;
+		}
+	50tn{
+			width: 50%;
+			height: 35px; 
+			color: #fff; 
+			font-weight: bolder;
+			border-radius: 6px;
+			background-color:lightblue;
+
+		}
+
+		.rst{
+			width: 50%;
+			height: 35px; 
+			color: #fff; 50		font-weight: bolder;
+			border-radius: 6px;
+			background-color:orange;
+			
+		}
+	</style>
+</head>
+<body>
+	<form>
+	<table align="center">
+		<tr><td colspan="2"><h1>Mon Premier Formulaire</h1></td></tr>
+		<tr><td>Nom</td><td><input type="text" name="" placeholder="Votre nom ici" required class="inpt"></td></tr>
+		<tr><td>Prenom</td><td><input type="text" name="" required class="inpt"></td></tr>
+		<tr><td>Age</td><td><input type="number" min="15" max="40" name=""required class="inpt"></td></tr>
+		<tr><td>E-mail</td><td><input type="text" name=""required class="inpt"></td></tr>
+		<tr><td>Mot de passe</td><td><input type="password" name="" class="inpt"></td></tr>
+		<tr><td>Adresse</td><td><textarea></textarea></td></tr>
+		<tr><td>Date de naissance</td><td><input type="date" name="" class="inpt"></td></tr>
+		<tr><td>Université</td><td><select class="inpt"><option>ENET'Com</option><option>ENIT</option><option>FST</option></select></td></tr>
+		<tr><td>Redoublement</td><td><input type="radio" name="r">OUI<br><input type="radio" name="r">NON</td></tr>
+		<tr><td><input class="btn" type="submit" value="Inscrire" name=""></td><td><input class="rst" type="reset" value="vider" name=""></td></tr>
+
+	</table>
+	</form>
+</body>
+</html>
